@@ -31,7 +31,6 @@ int calCode(string code) {
 	result += code[7] - '0';
 
 	int sum = b_sum * 3 + a_sum + code[7] - '0';
-	cout << sum << result << endl;
 	if (sum % 10 == 0)
 		return result;
 	else
